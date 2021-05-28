@@ -6,10 +6,10 @@
   // 程序安装路径
   $config['path'] = '/';
   // ID 长度
-  $config['length'] = 4;
+  $config['length'] = 6;
   // 网站标题
-  $config['title'] = 'CRZ.im';
+  $config['title'] = 'PUQ.CC';
   // 网站简介
-  $config['description'] = '某千岁的网址缩短服务';
+  $config['description'] = '泊网短网址服务';
 
 ?>

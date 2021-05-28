@@ -58,7 +58,8 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
 }
-.wrap .link-area #url {
+.wrap .link-area #url,
+.wrap .link-area #shorturl {
   width: 320px;
   height: 32px;
   line-height: 32px;
@@ -72,7 +73,8 @@ a:hover {
   border-color: #ff4665;
   transition: .2s border ease;
 }
-.wrap .link-area #submit {
+.wrap .link-area #submit,
+.wrap .link-area #shorturlcopy {
   width: 90px;
   height: 38px;
   margin: 0 0 0 5px;
@@ -95,6 +97,8 @@ a:hover {
   left: 0;
   position: absolute;
   color: #7e7e7e;
+  line-height: 20px;
+  height: 20px;
 }
 .wrap .footer a {
   color:#ff4665;
