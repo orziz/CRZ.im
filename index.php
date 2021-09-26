@@ -37,7 +37,7 @@
       </div>
       <div class="link-area">
         <input id="url" type="text" placeholder="源网址" />
-        <input id="submit" type="button" value="Generate" onclick="APP.fn.setUrl(this)" />
+        <input id="submit" type="button" value="生成" onclick="APP.fn.setUrl(this)" />
 				<br><br>
 				<input id="shorturl" type="text" placeholder="短网址" readonly/>
 				<input id="shorturlcopy" type="button" value="复制" onclick="copyText()" />

@@ -35,7 +35,8 @@ a:hover {
 }
 .wrap .meta .title {
   line-height: 1em;
-  color: #ff4665;
+  /* color: #ff4665; */
+  color: #00a0e9;
   font-size: 42px;
   text-transform: uppercase;
 }
@@ -70,7 +71,8 @@ a:hover {
 }
 .wrap .link-area #url.focus,
 .wrap .link-area #url:focus {
-  border-color: #ff4665;
+  /* border-color: #ff4665; */
+  border-color: #00a0e9;
   transition: .2s border ease;
 }
 .wrap .link-area #submit,
@@ -78,7 +80,8 @@ a:hover {
   width: 90px;
   height: 38px;
   margin: 0 0 0 5px;
-  background: #ff4665;
+  /* background: #ff4665; */
+  background: #00a0e9;
   border-radius: 5px;
   color: #fff;
   border: none;
@@ -101,5 +104,6 @@ a:hover {
   height: 20px;
 }
 .wrap .footer a {
-  color:#ff4665;
+  /* color:#ff4665; */
+  color: #00a0e9;
 }

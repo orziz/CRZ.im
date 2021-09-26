@@ -7,21 +7,22 @@ var APP = (function(){
     setUrl: function(self) {
       var urlEl = document.getElementById('url'),
           tips = 'https://',
-          request = {
-            "url": urlEl.value
-          };
+          request = {"url": urlEl.value};
       fn.getJson('api/set.php', true, JSON.stringify(request), function(res) {
-         if(res.success == 'true') {
-          urlEl.className = 'focus';
-          urlEl.value = res.content.url;
-         } else {
-          urlEl.className = '';
-          urlEl.value = '';
-          urlEl.setAttribute('placeholder', res.content);
-          setTimeout(function() {
-            urlEl.setAttribute('placeholder', tips);
-          }, 2000);
-         }
+          if(res.success == 'true') {
+              //urlEl.className = 'focus';
+              //urlEl.value = res.content.url;
+              $res = document.getElementById('shorturl')
+              $res.className = 'focus';
+              $res.value = res.content.url;
+          } else {
+              urlEl.className = '';
+              urlEl.value = '';
+              urlEl.setAttribute('placeholder', res.content);
+              setTimeout(function() {
+                  urlEl.setAttribute('placeholder', tips);
+              }, 2000);
+          }
       });
     },
     
